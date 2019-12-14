@@ -18,6 +18,7 @@ Contents:
    :maxdepth: 2
 
    Preface <preface>
+   Machine Learning Services <ml>
    Data Engineering <engineering>
    Exploratory Data Analysis <eda>
    Modeling <modeling>
