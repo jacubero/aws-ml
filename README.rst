@@ -1,5 +1,5 @@
-AWS Machine Learning
-====================
+AWS Certified Machine Learning – Specialty
+==========================================
 
 Machine Learning Path: Data Scientist
 

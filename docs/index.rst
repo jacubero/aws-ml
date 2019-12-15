@@ -1,5 +1,5 @@
-AWS Machine Learning
-####################
+AWS Certified Machine Learning – Specialty
+##########################################
 
 .. .. _cover:
 
@@ -19,6 +19,7 @@ Contents:
 
    Preface <preface>
    Machine Learning Services <ml>
+   Analytics Services <analytics>
    Data Engineering <engineering>
    Exploratory Data Analysis <eda>
    Modeling <modeling>

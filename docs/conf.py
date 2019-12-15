@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'AWS Machine Learning'
+project = u'AWS Certified Machine Learning – Specialty'
 copyright = u'2019, Jose Antonio Alvarez Cubero'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -176,7 +176,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'AWS Machine Learning'
+htmlhelp_basename = 'AWS Certified Machine Learning – Specialty'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -196,7 +196,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'aws-ml.tex', u'AWS Machine Learning',
+  ('index', 'aws-ml.tex', u'AWS Certified Machine Learning – Specialty',
    u'Jose Antonio Alvarez Cubero', 'manual'),
 ]
 
@@ -226,7 +226,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'aws-mlbook', u'AWS Machine Learning',
+    ('index', 'aws-mlbook', u'AWS Certified Machine Learning – Specialty',
      [u'Jose Antonio Alvarez Cubero'], 1)
 ]
 
@@ -240,8 +240,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'aws-mlbook', u'AWS Machine Learning',
-   u'AWS Machine Learning', 'Jose Antonio Alvarez Cubero', 'AWS Machine Learning.',
+  ('index', 'aws-mlbook', u'AWS Certified Machine Learning – Specialty',
+   u'AWS Certified Machine Learning – Specialty', 'Jose Antonio Alvarez Cubero', 'AWS Certified Machine Learning – Specialty.',
    'Miscellaneous'),
 ]
 
