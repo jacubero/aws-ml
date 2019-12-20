@@ -18,6 +18,9 @@ Contents:
    :maxdepth: 2
 
    Preface <preface>
+   Data Science <datascience>
+   Machine learning algorithms <algo> 
+   The Data Science and ML workflow <workflow>
    Machine Learning Services <ml>
    Analytics Services <analytics>
    Data Engineering <engineering>
