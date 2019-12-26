@@ -16,7 +16,7 @@ Main idea: Learning = estimating underlying function :math:`f` by mapping data a
 
 Training set: A set of labeled examples :math:`(x,f(x))` where :math:`x` is the input variables and the label :math:`f(x)` is the observed target truth.
 
-Goal: Given a training set, find approximation :math:`\^{f}` of :math:`f` that best generalizes, or predicts, labels for new examples. Best is measured by some quality measure, for instance: error rate, sum squared error.
+Goal: Given a training set, find approximation :math:`\hat{f}` of :math:`f` that best generalizes, or predicts, labels for new examples. Best is measured by some quality measure, for instance: error rate, sum squared error.
 
 Image:ML.png
 
