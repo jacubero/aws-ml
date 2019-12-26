@@ -9,7 +9,7 @@ Linear regression
 
 Linear methods are parametric methods where function learned has form :math:`f(x) = \phi \left( w^T x \right)` where :math:`\phi()` is some activation function.
 
-Generally, optimized by learning weights by applying (stochastic) gredient descent to minimize loss function, e.g. :math:`\sum \lvert \^{y_i} - y_i \rvert^2`
+Generally, optimized by learning weights by applying (stochastic) gredient descent to minimize loss function, e.g. :math:`\sum \lvert \hat{y_i} - y_i \rvert^2`
 
 Simple; a good place to start for a new problem, at least a baseline
 
