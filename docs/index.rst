@@ -18,10 +18,10 @@ Contents:
    :maxdepth: 2
 
    Preface <preface>
+   ML Building Blocks: Services and Terminology <ml>
    Data Science <datascience>
    Machine learning algorithms <algo> 
    The Data Science and ML workflow <workflow>
-   Machine Learning Services <ml>
    Analytics Services <analytics>
    Data Engineering <engineering>
    Exploratory Data Analysis <eda>
