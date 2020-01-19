@@ -13,6 +13,11 @@ Amazon Elasticsearch
 Amazon EMR
 **********
 
+AWS Glue
+********
+
+`What is AWS Glue? <https://www.youtube.com/watch?v=qgWMfNSN9f4&feature=emb_logo>`_
+
 Amazon Kinesis
 **************
 
