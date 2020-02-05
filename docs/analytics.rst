@@ -74,5 +74,12 @@ When you consume from a data stream, you are not deleting any record. This means
 
 If the number of shards increases, the complexity of the code of the consumers increases as well. The consumer is responsible for keeping track who is reading, from which shard, check the progress of reading, ... Because of that, instead of using directly Kinesis API for consuming, it is recommend to use existing client-side libraries called Kinesis Client Library (KCL). This library does the complex management of shards: electing who is reading from each shard, of tracking progress of your reads, and allows to focus on the code needed to process the data in the records.
 
+A new shard iterator is returned by every GetRecords request (as ``NextShardIterator``), which you then use in the next GetRecords request (as ``ShardIterator``). Typically, this shard iterator does not expire before you use it. However, you may find that shard iterators expire because you have not called GetRecords for more than 5 minutes, or because you've performed a restart of your consumer application.
+
+.. figure:: /analytics_d/kinesis-architecture.png
+   	:align: center
+
+	Kinesis Data Streams architecture
+
 Amazon QuickSight
 *****************
