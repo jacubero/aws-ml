@@ -97,5 +97,16 @@ Kinesis Data Streams supports changes to the data record retention period of you
 
 The time period from when a record is added to when it is no longer accessible is called the retention period. A Kinesis data stream stores records from 24 hours by default to a maximum of 168 hours.
 
+Resharding
+----------
+
+Amazon Kinesis Data Streams supports resharding, which lets you adjust the number of shards in your stream to adapt to changes in the rate of data flow through the stream. Resharding is considered an advanced operation.
+
+There are two types of resharding operations: shard split and shard merge. In a shard split, you divide a single shard into two shards. In a shard merge, you combine two shards into a single shard. Resharding is always pairwise in the sense that you cannot split into more than two shards in a single operation, and you cannot merge more than two shards in a single operation. The shard or pair of shards that the resharding operation acts on are referred to as parent shards. The shard or pair of shards that result from the resharding operation are referred to as child shards.
+
+Splitting increases the number of shards in your stream and therefore increases the data capacity of the stream. Because you are charged on a per-shard basis, splitting increases the cost of your stream. Similarly, merging reduces the number of shards in your stream and therefore decreases the data capacity—and cost—of the stream.
+
+If your data rate increases, you can also increase the number of shards allocated to your stream to maintain the application performance. You can reshard your stream using the ``UpdateShardCount`` API. The throughput of an Amazon Kinesis data stream is designed to scale without limits via increasing the number of shards within a data stream. 
+
 Amazon QuickSight
 *****************
