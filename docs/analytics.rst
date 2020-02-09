@@ -108,5 +108,12 @@ Splitting increases the number of shards in your stream and therefore increases 
 
 If your data rate increases, you can also increase the number of shards allocated to your stream to maintain the application performance. You can reshard your stream using the ``UpdateShardCount`` API. The throughput of an Amazon Kinesis data stream is designed to scale without limits via increasing the number of shards within a data stream. 
 
+Amazon Kinesis Data Analytics
+=============================
+
+Amazon Kinesis Data Analytics is the easiest way to analyze streaming data, gain actionable insights, and respond to your business and customer needs in real time. Amazon Kinesis Data Analytics reduces the complexity of building, managing, and integrating streaming applications with other AWS services. SQL users can easily query streaming data or build entire streaming applications using templates and an interactive SQL editor. Java developers can quickly build sophisticated streaming applications using open source Java libraries and AWS integrations to transform and analyze data in real-time.
+
+Amazon Kinesis Data Analytics takes care of everything required to run your real-time applications continuously and scales automatically to match the volume and throughput of your incoming data. With Amazon Kinesis Data Analytics, you only pay for the resources your streaming applications consume. There is no minimum fee or setup cost.
+
 Amazon QuickSight
 *****************
