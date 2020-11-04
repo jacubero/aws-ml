@@ -1,7 +1,9 @@
 Modeling
 ########
 
-`Amazon SageMaker Automatic Model Tuning: Using Machine Learning for Machine Learning <https://aws.amazon.com/es/blogs/aws/sagemaker-automatic-model-tuning/>`_
+`Amazon SageMaker Automatic Model Tuning: Using Machine Learning for Machine Learning <https://github.com/awslabs/amazon-sagemaker-workshop>`_
+
+`Amazon SageMaker Workshops <https://aws.amazon.com/es/blogs/aws/sagemaker-automatic-model-tuning/>`_
 
 
 Frame business problems as machine learning problems
