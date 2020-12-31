@@ -27,7 +27,7 @@ Contents:
    Exploratory Data Analysis <eda>
    Modeling <modeling>
    Machine Learning Implementation and Operations <operations>
-
+   Appendix <appendix>
 
    *
 
